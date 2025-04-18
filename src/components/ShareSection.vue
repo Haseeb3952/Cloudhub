@@ -61,7 +61,7 @@
 
         <div class="col-12 col-lg-6 order-0 order-lg-1 mb-4 mb-lg-0">
           <img
-            src="../assets/code-frame.svg"
+            src="../assets/code-frame.png"
             class="img-fluid"
             alt="Code Frame"
           />
