@@ -56,12 +56,14 @@
 
 .hero-img {
   top: 10px;
-  z-index: -1; /* Keeps the image behind other elements */
+  right: 5px;
+  z-index: -1;
+  overflow-x: hidden;
 }
 
 button {
-  position: relative; /* Ensures the button is above other elements */
-  z-index: 10; /* Push the button above the image */
+  position: relative;
+  z-index: 10;
 }
 
 @media (max-width: 767px) {
