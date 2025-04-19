@@ -2,14 +2,16 @@
   <div>
     <section class="bg-dashboard pt-5">
       <div class="container">
-        <h1 class="text-white text-center fw-bold pt-4">
+        <h1 class="text-white text-lg-center text-start fw-bold pt-4">
           Keep every one in the loop
         </h1>
-        <p class="text-white text-center">
+        <p class="text-white text-lg-center text-start">
           All good things start with a homepage. Get
           <span class="divider"></span> inspired without breaking your wallet.
         </p>
-        <div class="d-flex justify-content-center align-items-center">
+        <div
+          class="d-flex justify-content-lg-center justify-content-start align-items-center"
+        >
           <button class="btn bg-white rounded-pill fw-bold px-4">
             Start for free
           </button>
@@ -17,7 +19,7 @@
         <div class="d-flex justify-content-center align-items-center">
           <img
             src="../assets/dashboard-frame.svg"
-            class="img-fluid mt-5"
+            class="img-fluid mt-lg-5 mt-4"
             alt="dashboard frame"
           />
         </div>

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <hr style="border: 1px solid #ff591e" />
     <footer class="py-5">
       <div class="container">
         <div class="row gy-3">
@@ -9,7 +10,6 @@
               class="img-fluid"
               alt="footer logo"
             />
-            <h4 class="fw-bold py-3 m-0">Cloudbox</h4>
           </div>
           <div class="col-12 col-lg-2">
             <h6 class="fw-bold mb-3">Product</h6>
@@ -21,7 +21,9 @@
                 <a href="#" class="text-decoration-none text-muted">Pricing</a>
               </li>
               <li class="py-1">
-                <a href="#" class="text-decoration-none text-muted">Changlog</a>
+                <a href="#" class="text-decoration-none text-muted"
+                  >Changelog</a
+                >
               </li>
               <li class="py-1">
                 <a href="#" class="text-decoration-none text-muted">Support</a>
@@ -84,5 +86,13 @@
 <style scoped>
 .text-orange {
   color: #ff591e;
+}
+
+ul li a {
+  transition: color 0.3s ease !important;
+}
+
+ul li a:hover {
+  color: #ff591e !important;
 }
 </style>

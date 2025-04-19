@@ -3,15 +3,17 @@
     <div class="container position-relative home-section">
       <div class="row">
         <div class="col-12">
-          <h1 class="fw-bold mt-4 text-dark text-center">
+          <h1 class="fw-bold mt-4 text-dark text-lg-center text-start">
             Create, inspect, and apply <span class="divider"></span>
             synthetic surveillance broadly.
           </h1>
-          <p class="mt-3 text-center">
+          <p class="mt-3 text-lg-center text-start">
             Start with a stunning homepage. Stay motivated without hurting your
             pocket.
           </p>
-          <div class="d-flex justify-content-center align-items-center">
+          <div
+            class="d-flex justify-content-lg-center justify-content-start align-items-center"
+          >
             <button
               class="btn bg-orange rounded-pill text-white position-relative z-10"
             >

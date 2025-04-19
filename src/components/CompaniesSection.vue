@@ -7,7 +7,7 @@
             <a :href="'#logo' + n">
               <img
                 :src="require(`../assets/company-logo-${n}.svg`)"
-                class="img-fluid"
+                class="img-fluid logo-hover"
                 :alt="'company-logo-' + n"
               />
             </a>
@@ -26,5 +26,13 @@
   .companies-logo {
     margin-top: 200px;
   }
+}
+
+.logo-hover {
+  transition: transform 0.4s ease;
+}
+
+.logo-hover:hover {
+  transform: scale(1.15);
 }
 </style>

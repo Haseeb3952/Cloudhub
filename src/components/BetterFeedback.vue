@@ -2,8 +2,8 @@
   <div>
     <section class="bg-feedback py-5">
       <div class="container">
-        <p class="text-center text-white m-0">Best time here</p>
-        <h1 class="text-center text-white mb-5">
+        <p class="text-lg-center text-start text-white m-0">Best time here</p>
+        <h1 class="text-lg-center text-start text-white mb-lg-5 mb-3">
           Better feedback at the right time.
         </h1>
 

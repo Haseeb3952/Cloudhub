@@ -37,29 +37,35 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link fw-bold text-dark px-3 active"
+                class="nav-link fw-bold text-dark px-lg-3 px-0 active"
                 aria-current="page"
                 href="#"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold text-dark px-3" href="#">Shop</a>
+              <a class="nav-link fw-bold text-dark px-lg-3 px-0" href="#"
+                >Shop</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold text-dark px-3" href="#">Pages</a>
+              <a class="nav-link fw-bold text-dark px-lg-3 px-0" href="#"
+                >Pages</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold text-dark px-3" href="#"
+              <a class="nav-link fw-bold text-dark px-lg-3 px-0" href="#"
                 >Integrations</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold text-dark px-3" href="#">Developers</a>
+              <a class="nav-link fw-bold text-dark px-lg-3 px-0" href="#"
+                >Developers</a
+              >
             </li>
           </ul>
           <div>
-            <a href="#" class="text-dark text-decoration-none fw-bold mx-3"
+            <a href="#" class="text-dark text-decoration-none fw-bold me-3"
               >Login</a
             >
             <button class="btn bg-orange rounded-pill text-white">
@@ -70,6 +76,7 @@
       </div>
     </nav>
   </div>
+  <div class="border-bottom"></div>
 </template>
 
 <style scoped>
@@ -79,5 +86,11 @@
 
 .bg-orange:hover {
   background-color: #fb432c;
+}
+.border-bottom {
+  border-bottom: 1px solid #ff591e !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 </style>

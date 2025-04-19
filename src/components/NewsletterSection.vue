@@ -8,7 +8,11 @@
         </h2>
         <p>Start for free, flexible for all teams.</p>
         <div class="d-flex justify-content-center align-items-center gap-3">
-          <p class="fw-bold m-0">Request a demo</p>
+          <p class="fw-bold m-0">
+            <a href="#" class="text-dark text-decoration-none"
+              >Request a demo</a
+            >
+          </p>
           <button class="btn bg-orange rounded-pill text-white">
             Start for free
           </button>
