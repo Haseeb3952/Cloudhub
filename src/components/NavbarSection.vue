@@ -6,7 +6,7 @@
           <img src="../assets/logo.svg" alt="Logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -14,8 +14,13 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <img
+            src="../assets/burger-icon.svg"
+            alt="Menu Icon"
+            class="menu-icon"
+          />
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto ms-lg-5 mb-2 mb-lg-0">
             <li class="nav-item dropdown">
