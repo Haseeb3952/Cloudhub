@@ -53,7 +53,7 @@
 
 .hero-img {
   top: 100px;
-  right: 5px;
+  right: 0px;
   z-index: -1;
   overflow-x: hidden;
 }
