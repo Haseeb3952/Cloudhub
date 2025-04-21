@@ -5,9 +5,7 @@
     <div class="container position-relative home-section">
       <div class="row">
         <div class="col-12">
-          <h1
-            class="fw-bold main-heading mt-lg-3 mt-3 text-dark text-lg-center text-start"
-          >
+          <h1 class="fw-bold main-heading text-dark text-lg-center text-start">
             Create, inspect, and apply <span class="divider"></span> synthetic
             surveillance broadly.
           </h1>
@@ -22,7 +20,7 @@
               Start for free
             </button>
           </div>
-          <p class="text-light-dark mt-4 text-center">
+          <p class="text-light-dark text-center mobile-text">
             Want to talk or get a live demo?
             <a href="#" class="text-dark text-decoration-none fw-bold">
               Get in touch <i class="fa-solid fa-arrow-right"></i>
@@ -73,7 +71,7 @@
 }
 
 .hero-img {
-  top: 100px;
+  top: 75px;
   right: 0;
   z-index: -1;
   width: 100%;
@@ -84,6 +82,10 @@
   font-size: 50px;
   line-height: 1.2;
   font-weight: bold;
+}
+
+.mobile-text {
+  margin-top: 15px;
 }
 
 @media (max-width: 1199px) {
@@ -103,8 +105,13 @@
     top: 200px;
   }
 
+  .mobile-text {
+    margin-top: 205px;
+  }
+
   .main-heading {
     font-size: 30px;
+    margin-top: 100px;
   }
 
   .divider {

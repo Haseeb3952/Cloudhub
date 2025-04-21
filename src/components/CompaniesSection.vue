@@ -88,7 +88,7 @@
 
 @media (max-width: 767px) {
   .companies-logo {
-    margin-top: 125px;
+    margin-top: 50px;
   }
 
   .mobile-hidden {
