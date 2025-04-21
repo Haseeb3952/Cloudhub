@@ -2,7 +2,6 @@
   <div>
     <div class="container">
       <div class="row align-items-center py-5 flex-column flex-lg-row">
-        <!-- Image -->
         <div class="col-12 col-lg-6 mb-4 mb-lg-0">
           <img
             src="../assets/feedback-frame.svg"
@@ -11,7 +10,6 @@
           />
         </div>
 
-        <!-- Content -->
         <div class="col-12 col-lg-6 p-lg-5 p-2">
           <h6>
             <span class="badge fw-light rounded-pill bg-orange">Feedback</span>

@@ -2,7 +2,6 @@
   <section class="testimonial-section-bg py-5">
     <div class="container">
       <div class="row gy-4 pt-lg-5 pt-0">
-        <!-- Testimonial 1 -->
         <div class="col-12 col-lg-6">
           <img
             src="../assets/testimonial-logo-1.svg"
@@ -29,7 +28,6 @@
           </div>
         </div>
 
-        <!-- Testimonial 2 -->
         <div class="col-12 col-lg-6">
           <img
             src="../assets/testimonial-logo-2.svg"

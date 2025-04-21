@@ -144,7 +144,6 @@
   padding-bottom: 20px;
 }
 
-/* Responsive adjustments */
 .mobile-view-hidden {
   display: block;
 }
