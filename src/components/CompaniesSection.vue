@@ -84,11 +84,18 @@
 <style>
 .companies-logo {
   margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px; /* Adjust height as needed */
+  text-align: center;
 }
 
 @media (max-width: 767px) {
   .companies-logo {
     margin-top: 50px;
+    min-height: 200px;
+    flex-direction: column;
   }
 
   .mobile-hidden {
@@ -98,6 +105,7 @@
 
 .logo-hover {
   transition: transform 0.3s ease;
+  /* width: 50px; */
 }
 
 .logo-hover:hover {
