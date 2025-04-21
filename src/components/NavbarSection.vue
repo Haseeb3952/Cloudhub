@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light py-4">
+    <nav
+      class="navbar navbar-expand-lg navbar-light py-4 fixed-top bg-white border-bottom px-5"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="../assets/logo.svg" alt="Logo" />
@@ -81,7 +83,7 @@
       </div>
     </nav>
   </div>
-  <!-- <div class="border-bottom"></div> -->
+  <div class="border-bottom"></div>
 </template>
 
 <style scoped>
@@ -92,9 +94,9 @@
 .bg-orange:hover {
   background-color: #fb432c;
 }
-/* .border-bottom {
+.border-bottom {
   border-bottom: 1px solid #ff591e !important;
-} */
+}
 .navbar-toggler:focus {
   box-shadow: none;
 }

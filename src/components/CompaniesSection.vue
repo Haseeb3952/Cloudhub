@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row justify-content-center align-items-center gy-4">
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <a href="#logo1">
+            <a
+              href="#logo1"
+              class="d-flex justify-content-center align-items-center"
+            >
               <img
                 src="../assets/company-logo-1.svg"
                 alt="company-logo-1"
@@ -13,7 +16,10 @@
             </a>
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <a href="#logo2">
+            <a
+              href="#logo2"
+              class="d-flex justify-content-center align-items-center"
+            >
               <img
                 src="../assets/company-logo-2.svg"
                 alt="company-logo-2"
@@ -22,7 +28,10 @@
             </a>
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <a href="#logo3">
+            <a
+              href="#logo3"
+              class="d-flex justify-content-center align-items-center"
+            >
               <img
                 src="../assets/company-logo-3.svg"
                 alt="company-logo-3"
@@ -31,7 +40,10 @@
             </a>
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <a href="#logo4">
+            <a
+              href="#logo4"
+              class="d-flex justify-content-center align-items-center"
+            >
               <img
                 src="../assets/company-logo-4.svg"
                 alt="company-logo-4"
@@ -40,7 +52,10 @@
             </a>
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 order-lg-0 order-1">
-            <a href="#logo5">
+            <a
+              href="#logo5"
+              class="d-flex justify-content-center align-items-center"
+            >
               <img
                 src="../assets/company-logo-5.svg"
                 alt="company-logo-5"
@@ -49,7 +64,10 @@
             </a>
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 order-lg-1 order-0">
-            <a href="#logo6">
+            <a
+              href="#logo6"
+              class="d-flex justify-content-center align-items-center"
+            >
               <img
                 src="../assets/company-logo-6.svg"
                 alt="company-logo-6"
