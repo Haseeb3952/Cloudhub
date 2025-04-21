@@ -82,6 +82,7 @@
   font-size: 50px;
   line-height: 1.2;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 .mobile-text {
@@ -111,7 +112,7 @@
 
   .main-heading {
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 75px;
   }
 
   .divider {

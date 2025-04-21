@@ -83,17 +83,17 @@
 
 <style>
 .companies-logo {
-  margin-top: 250px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 300px; /* Adjust height as needed */
+  min-height: 200px;
   text-align: center;
 }
 
 @media (max-width: 767px) {
   .companies-logo {
-    margin-top: 50px;
+    margin-top: 0px;
     min-height: 200px;
     flex-direction: column;
   }
