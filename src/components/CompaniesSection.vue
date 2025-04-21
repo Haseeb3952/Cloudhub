@@ -6,7 +6,7 @@
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
             <a
               href="#logo1"
-              class="d-flex justify-content-center align-items-center"
+              class="d-flex justify-content-center align-items-center px-3"
             >
               <img
                 src="../assets/company-logo-1.svg"
@@ -18,7 +18,7 @@
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
             <a
               href="#logo2"
-              class="d-flex justify-content-center align-items-center"
+              class="d-flex justify-content-center align-items-center px-3"
             >
               <img
                 src="../assets/company-logo-2.svg"
@@ -30,7 +30,7 @@
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
             <a
               href="#logo3"
-              class="d-flex justify-content-center align-items-center"
+              class="d-flex justify-content-center align-items-center px-3"
             >
               <img
                 src="../assets/company-logo-3.svg"
@@ -42,7 +42,7 @@
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
             <a
               href="#logo4"
-              class="d-flex justify-content-center align-items-center"
+              class="d-flex justify-content-center align-items-center px-3"
             >
               <img
                 src="../assets/company-logo-4.svg"
@@ -54,7 +54,7 @@
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 order-lg-0 order-1">
             <a
               href="#logo5"
-              class="d-flex justify-content-center align-items-center"
+              class="d-flex justify-content-center align-items-center px-3"
             >
               <img
                 src="../assets/company-logo-5.svg"
@@ -66,7 +66,7 @@
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 order-lg-1 order-0">
             <a
               href="#logo6"
-              class="d-flex justify-content-center align-items-center"
+              class="d-flex justify-content-center align-items-center px-3"
             >
               <img
                 src="../assets/company-logo-6.svg"
