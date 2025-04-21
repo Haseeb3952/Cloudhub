@@ -71,7 +71,7 @@
 }
 
 .hero-img {
-  top: 75px;
+  top: 100px;
   right: 0;
   z-index: -1;
   width: 100%;
