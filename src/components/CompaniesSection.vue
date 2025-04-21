@@ -1,14 +1,59 @@
 <template>
   <div>
     <section class="companies-logo">
-      <div class="container justify-content-center align-items-center">
-        <div class="row align-items-center gy-3 mt-5">
-          <div class="col-6 col-lg-2" v-for="n in 6" :key="n">
-            <a :href="'#logo' + n">
+      <div class="container">
+        <div class="row justify-content-center align-items-center gy-4">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <a href="#logo1">
               <img
-                :src="require(`../assets/company-logo-${n}.svg`)"
+                src="../assets/company-logo-1.svg"
+                alt="company-logo-1"
+                class="img-fluid logo-hover mobile-hidden"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <a href="#logo2">
+              <img
+                src="../assets/company-logo-2.svg"
+                alt="company-logo-2"
+                class="img-fluid logo-hover mobile-hidden"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <a href="#logo3">
+              <img
+                src="../assets/company-logo-3.svg"
+                alt="company-logo-3"
                 class="img-fluid logo-hover"
-                :alt="'company-logo-' + n"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <a href="#logo4">
+              <img
+                src="../assets/company-logo-4.svg"
+                alt="company-logo-4"
+                class="img-fluid logo-hover"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 order-lg-0 order-1">
+            <a href="#logo5">
+              <img
+                src="../assets/company-logo-5.svg"
+                alt="company-logo-5"
+                class="img-fluid logo-hover"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 order-lg-1 order-0">
+            <a href="#logo6">
+              <img
+                src="../assets/company-logo-6.svg"
+                alt="company-logo-6"
+                class="img-fluid logo-hover"
               />
             </a>
           </div>
@@ -18,18 +63,23 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .companies-logo {
-  margin-top: 350px;
+  margin-top: 250px;
 }
+
 @media (max-width: 767px) {
   .companies-logo {
-    margin-top: 200px;
+    margin-top: 125px;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
 }
 
 .logo-hover {
-  transition: transform 0.4s ease;
+  transition: transform 0.3s ease;
 }
 
 .logo-hover:hover {

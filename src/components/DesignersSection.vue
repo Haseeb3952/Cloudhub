@@ -6,7 +6,7 @@
         <div class="row gy-3 mt-4">
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img
@@ -20,7 +20,7 @@
 
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img
@@ -34,7 +34,7 @@
 
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img
@@ -48,7 +48,7 @@
 
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img
@@ -62,7 +62,7 @@
 
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img
@@ -76,7 +76,7 @@
 
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img
@@ -90,7 +90,7 @@
 
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img
@@ -104,7 +104,7 @@
 
           <div class="col-6 col-lg-3">
             <div
-              class="company-box d-flex align-items-center justify-content-center rounded-3"
+              class="company-box px-lg-2 px-3 py-1 d-flex align-items-center justify-content-center rounded-3"
             >
               <a href="#" target="_blank" rel="noopener">
                 <img

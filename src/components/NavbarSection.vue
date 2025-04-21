@@ -76,7 +76,7 @@
       </div>
     </nav>
   </div>
-  <div class="border-bottom"></div>
+  <!-- <div class="border-bottom"></div> -->
 </template>
 
 <style scoped>
@@ -87,9 +87,9 @@
 .bg-orange:hover {
   background-color: #fb432c;
 }
-.border-bottom {
+/* .border-bottom {
   border-bottom: 1px solid #ff591e !important;
-}
+} */
 .navbar-toggler:focus {
   box-shadow: none;
 }
