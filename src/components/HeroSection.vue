@@ -24,11 +24,11 @@
               Get in touch <i class="fa-solid fa-arrow-right"></i>
             </a>
           </p>
-          <!-- <img
+          <img
             src="../assets/Hero-Background-img.png"
             alt="Hero Background"
-            class="img-fluid w-100 position-absolute hero-img"
-          /> -->
+            class="img-fluid mobile-image"
+          />
         </div>
       </div>
     </div>
@@ -36,12 +36,15 @@
 </template>
 
 <style scoped>
+.mobile-image {
+  display: none;
+}
 .bg-image {
   background-image: url("../assets/Hero-Background-img.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  background-position-y: 110px;
+  background-position-y: 125px;
 }
 .hero-section {
   /* min-height: calc(100vh - 100px); */
@@ -115,6 +118,12 @@
 }
 
 @media (max-width: 767px) {
+  .bg-image {
+    background-image: none;
+  }
+  .mobile-image {
+    display: block;
+  }
   .hero-section {
     min-height: max-content;
     padding-top: 20px;
@@ -128,7 +137,7 @@
   }
 
   .mobile-text {
-    margin-top: 205px;
+    /* margin-top: 205px; */
   }
 
   .main-heading {
