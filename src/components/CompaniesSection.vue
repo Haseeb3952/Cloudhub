@@ -83,7 +83,7 @@
 
 <style>
 .companies-logo {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   display: flex;
   justify-content: center;
   align-items: center;

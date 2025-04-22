@@ -1,5 +1,5 @@
 <template>
-  <section class="hero-section hero-wrapper">
+  <section class="hero-section hero-wrapper bg-image">
     <div class="container position-relative home-section">
       <div class="row">
         <div class="col-12">
@@ -24,11 +24,11 @@
               Get in touch <i class="fa-solid fa-arrow-right"></i>
             </a>
           </p>
-          <img
+          <!-- <img
             src="../assets/Hero-Background-img.png"
             alt="Hero Background"
             class="img-fluid w-100 position-absolute hero-img"
-          />
+          /> -->
         </div>
       </div>
     </div>
@@ -36,8 +36,17 @@
 </template>
 
 <style scoped>
+.bg-image {
+  background-image: url("../assets/Hero-Background-img.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position-y: 110px;
+}
 .hero-section {
-  min-height: calc(100vh - 130px);
+  /* min-height: calc(100vh - 100px); */
+  /* height: 100%; */
+  min-height: 100vh;
   padding-top: 20px;
   /* display: flex;
   justify-content: center;
@@ -69,7 +78,7 @@
 }
 
 .hero-img {
-  top: 75px;
+  top: 150px;
   right: 0;
   z-index: -1;
   width: 100%;
@@ -103,14 +112,16 @@
   .hero-img {
     top: 150px;
   }
-  .hero-section {
-    min-height: max-content;
-  }
 }
 
 @media (max-width: 767px) {
   .hero-section {
     min-height: max-content;
+    padding-top: 20px;
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+    position: relative;
   }
   .hero-img {
     top: 200px;
