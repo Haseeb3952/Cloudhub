@@ -106,6 +106,12 @@
   .main-heading {
     font-size: 40px;
   }
+  .bg-image {
+    background: none;
+  }
+  .mobile-image {
+    display: block;
+  }
 }
 
 @media (max-width: 991px) {
@@ -114,6 +120,13 @@
   }
   .hero-img {
     top: 150px;
+  }
+  .mobile-image {
+    display: block;
+  }
+
+  .bg-image {
+    background-image: none;
   }
 }
 
