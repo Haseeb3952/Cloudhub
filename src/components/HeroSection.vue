@@ -88,6 +88,9 @@
 }
 
 @media (max-width: 1199px) {
+  .hero-section {
+    min-height: max-content;
+  }
   .main-heading {
     font-size: 40px;
   }
@@ -97,16 +100,17 @@
   .main-heading {
     font-size: 35px;
   }
+  .hero-img {
+    top: 150px;
+  }
+  .hero-section {
+    min-height: max-content;
+  }
 }
 
 @media (max-width: 767px) {
   .hero-section {
     min-height: max-content;
-    padding-top: 20px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
-    position: relative;
   }
   .hero-img {
     top: 200px;
