@@ -82,11 +82,11 @@
   font-size: 50px;
   line-height: 1.2;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 5%; /* changed from 50px */
 }
 
 .mobile-text {
-  margin-top: 15px;
+  margin-top: 1.5%; /* changed from 15px */
 }
 
 @media (max-width: 1199px) {
@@ -103,16 +103,16 @@
 
 @media (max-width: 767px) {
   .hero-img {
-    top: 200px;
+    top: 50%;
   }
 
   .mobile-text {
-    margin-top: 205px;
+    margin-top: 55%;
   }
 
   .main-heading {
     font-size: 30px;
-    margin-top: 75px;
+    margin-top: 20%;
   }
 
   .divider {
@@ -125,22 +125,6 @@
     display: block;
     visibility: hidden;
     font-size: 0;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero-img {
-    top: 325px;
-  }
-
-  .main-heading {
-    font-size: 28px;
-    line-height: 1.3;
-  }
-
-  .home-section {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 </style>

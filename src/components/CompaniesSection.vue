@@ -94,7 +94,7 @@
 @media (max-width: 767px) {
   .companies-logo {
     margin-top: 0px;
-    min-height: 200px;
+    /* min-height: 200px; */
     flex-direction: column;
   }
 
