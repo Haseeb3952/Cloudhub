@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="hero-section d-flex justify-content-center align-items-center hero-wrapper"
-  >
+  <section class="hero-section hero-wrapper">
     <div class="container position-relative home-section">
       <div class="row">
         <div class="col-12">
@@ -41,9 +39,9 @@
 .hero-section {
   min-height: calc(100vh - 130px);
   padding-top: 20px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   position: relative;
 }
 
@@ -71,7 +69,7 @@
 }
 
 .hero-img {
-  top: 100px;
+  top: 75px;
   right: 0;
   z-index: -1;
   width: 100%;
@@ -82,11 +80,11 @@
   font-size: 50px;
   line-height: 1.2;
   font-weight: bold;
-  margin-top: 5%; /* changed from 50px */
+  /* margin-top: 50px; */
 }
 
 .mobile-text {
-  margin-top: 1.5%; /* changed from 15px */
+  margin-top: 15px;
 }
 
 @media (max-width: 1199px) {
@@ -102,17 +100,25 @@
 }
 
 @media (max-width: 767px) {
+  .hero-section {
+    min-height: max-content;
+    padding-top: 20px;
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+    position: relative;
+  }
   .hero-img {
-    top: 50%;
+    top: 200px;
   }
 
   .mobile-text {
-    margin-top: 55%;
+    margin-top: 205px;
   }
 
   .main-heading {
     font-size: 30px;
-    margin-top: 20%;
+    /* margin-top: 75px; */
   }
 
   .divider {
@@ -125,6 +131,22 @@
     display: block;
     visibility: hidden;
     font-size: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-img {
+    top: 47%;
+  }
+
+  .main-heading {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .home-section {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 </style>
